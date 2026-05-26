@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Braj Properties | Mathura & Vrindavan</title>
+  <link rel="icon" type="image/png" href="assets/img/favicon.jpeg" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ══════════════════ NAVBAR ══════════════════ -->
+  <nav class="navbar-braj">
+    <div class="container d-flex align-items-center justify-content-between nav-container">
+      <a href="index.html" class="nav-logo" style="flex-shrink:0;">
+        <img src="assets/img/logo.png" alt="logo" style="height:65px; width:auto;" />
+      </a>
+      <button class="navbar-toggler border-0 d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navMenu" style="background:none;" id="navToggleBtn">
+        <span id="hamburgerIcon" style="font-size:1.5rem; color:var(--saffron);">☰</span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex" id="navMenu">
+        <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-1 ms-lg-4 mt-lg-0">
+          <a href="index.html" class="nav-link-custom">Home</a>
+          <a href="properties.html" class="nav-link-custom">Properties</a>
+          <a href="about.html" class="nav-link-custom">About</a>
+          <a href="contact.html" class="nav-link-custom active">Contact</a>
+        </div>
+        <!-- <div class="ms-lg-auto mt-3 mt-lg-0 d-flex align-items-center gap-2 auth-nav-btns">
+        <button class="btn-outline-saffron" data-bs-toggle="modal" data-bs-target="#authModal">
+          <i class="bi bi-person"></i> Login
+        </button>
+        <button class="btn-saffron" data-bs-toggle="modal" data-bs-target="#authModal">Sign Up</button>
+      </div>
+      <div class="ms-lg-auto mt-3 mt-lg-0 d-flex align-items-center gap-2 user-nav" style="display:none!important;">
+        <span style="font-size:.9rem; font-weight:500;">Hi, <strong class="user-name"></strong> 👋</span>
+        <button class="btn-outline-saffron" id="logoutBtn">Logout</button>
+      </div> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════ BREADCRUMB ══════════════════ -->
+  <div class="braj-breadcrumb">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">Contact</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ══════════════════ CONTACT INFO CARDS ══════════════════ -->
+  <section class="section-pad-sm" style="background:#fff;">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- Phone -->
+        <div class="col-sm-6 col-lg-3 fade-in-up">
+          <div class="contact-info-card text-center">
+            <div class="contact-icon mx-auto">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <h6 style="font-weight:700; margin-bottom:.4rem;">Call Us</h6>
+            <p style="font-size:.85rem; color:var(--text-muted); margin-bottom:.5rem;">Mon – Sat, 9am – 7pm</p>
+            <a href="tel:+918923451574" style="color:var(--saffron); font-weight:600; font-size:.95rem;">+91 89234
+              51574</a><br />
+            <a href="tel:+911234567890" style="color:var(--saffron); font-weight:600; font-size:.95rem;">+91 12345
+              67890</a>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-sm-6 col-lg-3 fade-in-up" style="transition-delay:.08s">
+          <div class="contact-info-card text-center">
+            <div class="contact-icon mx-auto">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <h6 style="font-weight:700; margin-bottom:.4rem;">Email Us</h6>
+            <p style="font-size:.85rem; color:var(--text-muted); margin-bottom:.5rem;">We reply within 24 hours</p>
+            <a href="mailto:awasiyaproperties@gmail.com"
+              style="color:var(--saffron); font-weight:600; font-size:.88rem;">awasiyaproperties@gmail.com</a><br />
+            <a href="mailto:sales@brajproperties.in"
+              style="color:var(--saffron); font-weight:600; font-size:.88rem;">sales@brajproperties.in</a>
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="col-sm-6 col-lg-3 fade-in-up" style="transition-delay:.16s">
+          <div class="contact-info-card text-center">
+            <div class="contact-icon mx-auto">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <h6 style="font-weight:700; margin-bottom:.4rem;">Visit Our Office</h6>
+            <p style="font-size:.85rem; color:var(--text-muted); margin-bottom:.5rem;">Come meet us in person</p>
+            <p style="font-size:.88rem; color:var(--text); font-weight:500; margin:0;">Near Yamuna Ghat,<br />Mathura,
+              UP – 281001</p>
+          </div>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="col-sm-6 col-lg-3 fade-in-up" style="transition-delay:.24s">
+          <div class="contact-info-card text-center">
+            <div class="contact-icon mx-auto" style="background:var(--whatsapp);">
+              <i class="bi bi-whatsapp"></i>
+            </div>
+            <h6 style="font-weight:700; margin-bottom:.4rem;">WhatsApp</h6>
+            <p style="font-size:.85rem; color:var(--text-muted); margin-bottom:.8rem;">Instant replies on chat</p>
+            <a href="https://wa.me/918923451574?text=Hi%2C%20I%20am%20interested%20in%20a%20property%20in%20Mathura%2FVrindavan"
+              target="_blank" class="btn-saffron"
+              style="background:var(--whatsapp); font-size:.82rem; padding:.45rem 1rem;">
+              <i class="bi bi-whatsapp"></i> Chat Now
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FORM + MAP ══════════════════ -->
+  <section class="section-pad">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+
+        <!-- Contact Form -->
+        <div class="col-lg-6 fade-in-up">
+          <span class="tag-line">✉️ Send a Message</span>
+          <h2 class="section-title" style="font-size:2rem;">We'd Love to Hear From You</h2>
+          <p class="section-subtitle">Fill in the form and our team will get back to you within 24 hours.</p>
+
+          <div
+            style="background:#fff; border-radius:var(--radius-lg); padding:2rem; border:1px solid var(--border); box-shadow:var(--shadow-sm);">
+            <form id="contactForm">
+
+              <div class="row g-3 mb-3">
+                <div class="col-sm-6">
+                  <label class="form-label-custom">Full Name *</label>
+                  <input type="text" class="form-control-custom" placeholder="Your full name" required />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label-custom">Phone Number *</label>
+                  <input type="tel" class="form-control-custom" placeholder="+91 XXXXX XXXXX" required />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label-custom">Email Address</label>
+                <input type="email" class="form-control-custom" placeholder="you@example.com" />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label-custom">I'm Interested In</label>
+                <select class="form-control-custom">
+                  <option value="">Select property type...</option>
+                  <option>Buying a Plot / Land</option>
+                  <option>Buying a Flat / Apartment</option>
+                  <option>Buying a Villa</option>
+                  <option>Renting a Property</option>
+                  <option>Commercial Property</option>
+                  <option>Investment Advice</option>
+                  <option>Other Enquiry</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label-custom">Preferred Location</label>
+                <select class="form-control-custom">
+                  <option value="">Select location...</option>
+                  <option>Mathura City</option>
+                  <option>Vrindavan</option>
+                  <option>Barsana</option>
+                  <option>Govardhan</option>
+                  <option>Nandgaon</option>
+                  <option>Any / Flexible</option>
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label-custom">Your Message *</label>
+                <textarea class="form-control-custom" rows="5"
+                  placeholder="Tell us more about your requirements — budget, area, timeline, etc." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-saffron w-100 justify-content-center"
+                style="padding:.85rem; font-size:1rem;">
+                <i class="bi bi-send-fill"></i> Send Message
+              </button>
+
+              <p
+                style="font-size:.75rem; color:var(--text-muted); text-align:center; margin-top:.8rem; margin-bottom:0;">
+                🔒 Your information is safe with us. We never share your data with third parties.
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <!-- Map + Office Info -->
+        <div class="col-lg-6 fade-in-up" style="transition-delay:.15s">
+          <span class="tag-line">📍 Find Us</span>
+          <h2 class="section-title" style="font-size:2rem;">Our Office Location</h2>
+          <p class="section-subtitle">Located in the heart of Mathura — steps away from the Yamuna Ghat.</p>
+          <!-- Map -->
+          <div class="map-placeholder mb-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!4v1778407059280!6m8!1m7!1s2LU1213MlJ2TjgsRhFMBPg!2m2!1d27.58707842508409!2d77.60358391447555!3f68.09575!4f0!5f0.7820865974627469"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <!-- Office Details Card -->
+          <div
+            style="background:#fff; border-radius:var(--radius-lg); padding:1.8rem; border:1px solid var(--border); box-shadow:var(--shadow-sm);">
+            <h5 style="font-weight:700; margin-bottom:1.4rem; font-size:1.05rem;">🏢 Office Information</h5>
+
+            <div class="d-flex gap-3 mb-3 align-items-start">
+              <div
+                style="width:38px; height:38px; background:rgba(255,153,51,.1); border-radius:10px; display:flex; align-items:center; justify-content:center; color:var(--saffron); flex-shrink:0;">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div>
+                <div style="font-weight:600; font-size:.9rem; margin-bottom:.2rem;">Main Office</div>
+                <div style="font-size:.85rem; color:var(--text-muted);">Shop No. 7, Yamuna Vihar Complex,<br />Near
+                  Vishram Ghat, Mathura, UP – 281001</div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mb-3 align-items-start">
+              <div
+                style="width:38px; height:38px; background:rgba(255,153,51,.1); border-radius:10px; display:flex; align-items:center; justify-content:center; color:var(--saffron); flex-shrink:0;">
+                <i class="bi bi-clock-fill"></i>
+              </div>
+              <div>
+                <div style="font-weight:600; font-size:.9rem; margin-bottom:.2rem;">Working Hours</div>
+                <div style="font-size:.85rem; color:var(--text-muted);">Monday – Saturday: 9:00 AM – 7:00
+                  PM<br />Sunday: 10:00 AM – 4:00 PM</div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mb-3 align-items-start">
+              <div
+                style="width:38px; height:38px; background:rgba(255,153,51,.1); border-radius:10px; display:flex; align-items:center; justify-content:center; color:var(--saffron); flex-shrink:0;">
+                <i class="bi bi-building-fill"></i>
+              </div>
+              <div>
+                <div style="font-weight:600; font-size:.9rem; margin-bottom:.2rem;">Branch Office — Vrindavan</div>
+                <div style="font-size:.85rem; color:var(--text-muted);">Near ISKCON Temple, Bhaktivedanta Swami
+                  Marg,<br />Vrindavan, UP – 281121</div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 align-items-start">
+              <div
+                style="width:38px; height:38px; background:rgba(255,153,51,.1); border-radius:10px; display:flex; align-items:center; justify-content:center; color:var(--saffron); flex-shrink:0;">
+                <i class="bi bi-car-front-fill"></i>
+              </div>
+              <div>
+                <div style="font-weight:600; font-size:.9rem; margin-bottom:.2rem;">How to Reach</div>
+                <div style="font-size:.85rem; color:var(--text-muted);">5 min from Mathura Junction Railway
+                  Station.<br />Auto, e-rickshaw & cab easily available.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div style="margin-top:1.5rem; display:flex; gap:.7rem; flex-wrap:wrap;">
+            <a href="https://wa.me/918923451574?text=Hi%2C%20I%20am%20interested%20in%20a%20property%20in%20Mathura%2FVrindavan"
+              target="_blank" class="btn-saffron"
+              style="background:var(--whatsapp); font-size:.85rem; padding:.5rem 1.2rem;">
+              <i class="bi bi-whatsapp"></i> WhatsApp
+            </a>
+            <a href="#" class="btn-outline-saffron" style="font-size:.85rem; padding:.5rem 1.2rem;">
+              <i class="bi bi-facebook"></i> Facebook
+            </a>
+            <a href="#" class="btn-outline-saffron" style="font-size:.85rem; padding:.5rem 1.2rem;">
+              <i class="bi bi-instagram"></i> Instagram
+            </a>
+            <a href="#" class="btn-outline-saffron" style="font-size:.85rem; padding:.5rem 1.2rem;">
+              <i class="bi bi-youtube"></i> YouTube
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FAQ SECTION ══════════════════ -->
+  <section class="section-pad-sm" style="background:#fff;">
+    <div class="container">
+      <div class="text-center mb-4 fade-in-up">
+        <span class="tag-line">❓ FAQ</span>
+        <h2 class="section-title" style="font-size:1.9rem;">Frequently Asked Questions</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion" id="faqAccordion">
+
+            <div class="accordion-item border-0 mb-3 fade-in-up"
+              style="border-radius:12px!important; overflow:hidden; box-shadow:var(--shadow-sm);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1"
+                  style="font-family:var(--font-body); font-weight:600; font-size:.92rem; background:#fff; color:var(--text);">
+                  Are all your listed properties RERA registered?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="font-size:.88rem; color:var(--text-muted); background:#fff;">
+                  Yes, all residential and commercial properties listed by Braj Properties are RERA registered under the
+                  Uttar Pradesh RERA (UP-RERA) authority. We provide the RERA number on every listing for your
+                  verification.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 fade-in-up"
+              style="border-radius:12px!important; overflow:hidden; box-shadow:var(--shadow-sm);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2"
+                  style="font-family:var(--font-body); font-weight:600; font-size:.92rem; background:#fff; color:var(--text);">
+                  Do you offer home loan assistance?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="font-size:.88rem; color:var(--text-muted); background:#fff;">
+                  Absolutely! We work with leading banks including SBI, HDFC, ICICI, and Axis Bank to offer home loan
+                  assistance. Our dedicated finance team will help you get the best interest rates and guide you through
+                  the loan process.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 fade-in-up"
+              style="border-radius:12px!important; overflow:hidden; box-shadow:var(--shadow-sm);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq3"
+                  style="font-family:var(--font-body); font-weight:600; font-size:.92rem; background:#fff; color:var(--text);">
+                  Can NRI buyers purchase property in Mathura / Vrindavan?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="font-size:.88rem; color:var(--text-muted); background:#fff;">
+                  Yes! NRIs can purchase residential and commercial properties in India under FEMA guidelines. Our legal
+                  team specializes in NRI property transactions, power of attorney services, and complete remote
+                  documentation so you can buy from anywhere in the world.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 mb-3 fade-in-up"
+              style="border-radius:12px!important; overflow:hidden; box-shadow:var(--shadow-sm);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq4"
+                  style="font-family:var(--font-body); font-weight:600; font-size:.92rem; background:#fff; color:var(--text);">
+                  Do you charge brokerage fees?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="font-size:.88rem; color:var(--text-muted); background:#fff;">
+                  We believe in zero hidden charges. Our consultation and site visit services are completely free. A
+                  nominal service fee is charged only upon successful property registration, which is clearly
+                  communicated upfront.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-0 fade-in-up"
+              style="border-radius:12px!important; overflow:hidden; box-shadow:var(--shadow-sm);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq5"
+                  style="font-family:var(--font-body); font-weight:600; font-size:.92rem; background:#fff; color:var(--text);">
+                  How do I schedule a property site visit?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="font-size:.88rem; color:var(--text-muted); background:#fff;">
+                  You can schedule a free site visit by filling the contact form above, calling us directly, or
+                  messaging us on WhatsApp. We organize guided site tours every weekend and can also arrange private
+                  visits on weekdays as per your convenience.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ CTA STRIP ══════════════════ -->
+  <section class="cta-section fade-in-up">
+    <div class="container">
+      <h2>Still Have Questions?</h2>
+      <p>Our team is available 6 days a week to help you find your perfect property in Braj Bhumi.</p>
+      <div class="cta-btns">
+        <a href="tel:+918923451574" class="btn-saffron" style="padding:.8rem 2rem; font-size:1rem;">
+          <i class="bi bi-telephone-fill"></i> Call Now
+        </a>
+        <a href="https://wa.me/918923451574?text=Hi%2C%20I%20have%20a%20query%20about%20Braj%20Properties"
+          target="_blank" class="btn-gold" style="padding:.8rem 2rem; font-size:1rem;">
+          <i class="bi bi-whatsapp"></i> WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-logo-text">Awasiya <span>Properties</span></div>
+          <p>Your most trusted real estate partner in Mathura, Vrindavan & Braj Bhumi — connecting devotees with their
+            dream homes since 2000.</p>
+          <div class="social-icons mt-3">
+            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6>Locations</h6>
+          <ul class="footer-links">
+            <li><a href="properties.html">Mathura City</a></li>
+            <li><a href="properties.html">Vrindavan</a></li>
+            <li><a href="properties.html">Barsana</a></li>
+            <li><a href="properties.html">Govardhan</a></li>
+            <li><a href="properties.html">Nandgaon</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h6>Contact Us</h6>
+          <ul class="footer-links">
+            <li><i class="bi bi-geo-alt" style="color:var(--gold-dark)"></i> ISKCON Gurukul Road, NH- 19 Jait, Mathura – 281406 (U.P.)</li>
+            <li style="margin-top:.5rem"><i class="bi bi-telephone" style="color:var(--gold-dark)"></i> +91 89234 51574
+            </li>
+            <li style="margin-top:.5rem"><i class="bi bi-envelope" style="color:var(--gold-dark)"></i>
+              awasiyaproperties@gmail.com</li>
+            <li style="margin-top:.5rem"><i class="bi bi-clock" style="color:var(--gold-dark)"></i> Mon–Sat, 9am – 7pm
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">
+        © 2025 Braj Properties. All Rights Reserved. Made with 🙏 for Braj Bhumi.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════ WHATSAPP FLOAT ══════════════════ -->
+  <a href="https://wa.me/918923451574?text=Hi%2C%20I%20am%20interested%20in%20a%20property%20in%20Mathura%2FVrindavan"
+    target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M16.002 2.667C8.64 2.667 2.668 8.636 2.668 15.998c0 2.345.64 4.64 1.854 6.655L2.668 29.333l6.88-1.8a13.28 13.28 0 006.453 1.666h.001c7.362 0 13.332-5.97 13.332-13.333 0-7.362-5.97-13.332-13.332-13.332zm0 24.333a11.02 11.02 0 01-5.618-1.537l-.403-.24-4.083 1.069 1.092-3.978-.263-.41a10.97 10.97 0 01-1.68-5.906c0-6.077 4.946-11.023 11.023-11.023 2.947 0 5.713 1.147 7.793 3.23a10.96 10.96 0 013.23 7.793c-.001 6.078-4.947 11.002-11.091 11.002zm6.053-8.25c-.332-.166-1.963-.967-2.268-1.078-.305-.11-.527-.166-.75.166-.222.333-.86 1.078-1.054 1.3-.194.221-.387.249-.72.083-.332-.166-1.402-.516-2.67-1.648-.988-.882-1.654-1.97-1.847-2.302-.193-.332-.02-.511.145-.677.149-.149.332-.388.498-.582.166-.194.221-.332.332-.554.111-.222.055-.416-.028-.582-.083-.166-.75-1.8-1.027-2.466-.27-.648-.546-.56-.75-.57a13.57 13.57 0 00-.638-.012c-.222 0-.582.083-.887.416-.305.332-1.165 1.138-1.165 2.773 0 1.635 1.193 3.215 1.36 3.437.165.222 2.35 3.585 5.694 5.027.796.343 1.417.548 1.9.701.8.253 1.528.218 2.103.132.641-.096 1.963-.803 2.24-1.578.276-.775.276-1.44.193-1.578-.083-.139-.305-.222-.637-.388z" />
+    </svg>
+  </a>
+
+  <!-- ══════════════════ CHATBOT ══════════════════ -->
+  <button class="chat-float-btn" id="chatFloatBtn" aria-label="Open Chat">💬</button>
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+      <div class="d-flex align-items-center">
+        <div class="chat-avatar">🏛️</div>
+        <div>
+          <h6>Support</h6><small>🟢 Online now</small>
+        </div>
+      </div>
+      <button class="chat-close" id="chatClose">✕</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-msg bot">🙏 Namaste! Have a question? I'm here to help you.</div>
+    </div>
+    <div class="chat-quick">
+      <button class="chat-quick-btn" data-key="pricing">💰 Pricing</button>
+      <button class="chat-quick-btn" data-key="booking">📅 Booking</button>
+      <button class="chat-quick-btn" data-key="location">📍 Location</button>
+    </div>
+    <div class="chat-input-area">
+      <input type="text" id="chatInput" placeholder="Type your message..." />
+      <button id="chatSend">➤</button>
+    </div>
+  </div>
+
+  <!-- ══════════════════ AUTH MODAL ══════════════════ -->
+  <div class="modal fade modal-braj" id="authModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width:420px;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div>
+            <div class="modal-title">Welcome to Braj Properties 🙏</div>
+            <div style="font-size:.8rem; color:var(--text-muted); font-family:var(--font-body);">Please login or create
+              an account</div>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="auth-toggle mb-4">
+            <button class="auth-toggle-btn active" data-mode="login">Login</button>
+            <button class="auth-toggle-btn" data-mode="signup">Sign Up</button>
+          </div>
+          <div id="loginForm">
+            <div class="mb-3">
+              <label class="form-label-custom">Email Address</label>
+              <input type="email" id="loginEmail" class="form-control-custom" placeholder="you@example.com" />
+            </div>
+            <div class="mb-4">
+              <label class="form-label-custom">Password</label>
+              <input type="password" id="loginPass" class="form-control-custom" placeholder="Enter password" />
+            </div>
+            <button class="btn-saffron w-100 justify-content-center py-3" id="submitLogin">Login to Your
+              Account</button>
+          </div>
+          <div id="signupForm" style="display:none;">
+            <div class="mb-3">
+              <label class="form-label-custom">Full Name</label>
+              <input type="text" id="signupName" class="form-control-custom" placeholder="Your full name" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label-custom">Email Address</label>
+              <input type="email" id="signupEmail" class="form-control-custom" placeholder="you@example.com" />
+            </div>
+            <div class="mb-4">
+              <label class="form-label-custom">Password</label>
+              <input type="password" id="signupPass" class="form-control-custom" placeholder="Create password" />
+            </div>
+            <button class="btn-saffron w-100 justify-content-center py-3" id="submitSignup">Create Account</button>
+          </div>
+          <div class="text-center mt-3" style="font-size:.78rem; color:var(--text-muted);">
+            By continuing, you agree to our <a href="#" style="color:var(--saffron);">Terms & Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
